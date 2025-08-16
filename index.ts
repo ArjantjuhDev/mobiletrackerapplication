@@ -1,3 +1,10 @@
+// Global require polyfill for browser
+if (typeof window !== 'undefined' && typeof window.require === 'undefined') {
+	window.require = function() {
+		throw new Error('require is not available in the browser');
+	};
+}
+
 import { registerRootComponent } from 'expo';
 
 import App from './App';

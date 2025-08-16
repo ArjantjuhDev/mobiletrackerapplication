@@ -1,0 +1,864 @@
+diff --git a/node_modules/@react-navigation/elements/LICENSE b/node_modules/@react-navigation/elements/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/README.md b/node_modules/@react-navigation/elements/README.md
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Background.js b/node_modules/@react-navigation/elements/lib/module/Background.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Background.js.map b/node_modules/@react-navigation/elements/lib/module/Background.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Button.js b/node_modules/@react-navigation/elements/lib/module/Button.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Button.js.map b/node_modules/@react-navigation/elements/lib/module/Button.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/Header.js b/node_modules/@react-navigation/elements/lib/module/Header/Header.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/Header.js.map b/node_modules/@react-navigation/elements/lib/module/Header/Header.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderBackButton.js b/node_modules/@react-navigation/elements/lib/module/Header/HeaderBackButton.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderBackButton.js.map b/node_modules/@react-navigation/elements/lib/module/Header/HeaderBackButton.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderBackContext.js b/node_modules/@react-navigation/elements/lib/module/Header/HeaderBackContext.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderBackContext.js.map b/node_modules/@react-navigation/elements/lib/module/Header/HeaderBackContext.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderBackground.js b/node_modules/@react-navigation/elements/lib/module/Header/HeaderBackground.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderBackground.js.map b/node_modules/@react-navigation/elements/lib/module/Header/HeaderBackground.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderButton.js b/node_modules/@react-navigation/elements/lib/module/Header/HeaderButton.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderButton.js.map b/node_modules/@react-navigation/elements/lib/module/Header/HeaderButton.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderHeightContext.js b/node_modules/@react-navigation/elements/lib/module/Header/HeaderHeightContext.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderHeightContext.js.map b/node_modules/@react-navigation/elements/lib/module/Header/HeaderHeightContext.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderIcon.js b/node_modules/@react-navigation/elements/lib/module/Header/HeaderIcon.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderIcon.js.map b/node_modules/@react-navigation/elements/lib/module/Header/HeaderIcon.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderSearchBar.js b/node_modules/@react-navigation/elements/lib/module/Header/HeaderSearchBar.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderSearchBar.js.map b/node_modules/@react-navigation/elements/lib/module/Header/HeaderSearchBar.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderShownContext.js b/node_modules/@react-navigation/elements/lib/module/Header/HeaderShownContext.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderShownContext.js.map b/node_modules/@react-navigation/elements/lib/module/Header/HeaderShownContext.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderTitle.js b/node_modules/@react-navigation/elements/lib/module/Header/HeaderTitle.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/HeaderTitle.js.map b/node_modules/@react-navigation/elements/lib/module/Header/HeaderTitle.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/getDefaultHeaderHeight.js b/node_modules/@react-navigation/elements/lib/module/Header/getDefaultHeaderHeight.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/getDefaultHeaderHeight.js.map b/node_modules/@react-navigation/elements/lib/module/Header/getDefaultHeaderHeight.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/getHeaderTitle.js b/node_modules/@react-navigation/elements/lib/module/Header/getHeaderTitle.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/getHeaderTitle.js.map b/node_modules/@react-navigation/elements/lib/module/Header/getHeaderTitle.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/useHeaderHeight.js b/node_modules/@react-navigation/elements/lib/module/Header/useHeaderHeight.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Header/useHeaderHeight.js.map b/node_modules/@react-navigation/elements/lib/module/Header/useHeaderHeight.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Label/Label.js b/node_modules/@react-navigation/elements/lib/module/Label/Label.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Label/Label.js.map b/node_modules/@react-navigation/elements/lib/module/Label/Label.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Label/getLabel.js b/node_modules/@react-navigation/elements/lib/module/Label/getLabel.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Label/getLabel.js.map b/node_modules/@react-navigation/elements/lib/module/Label/getLabel.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/MaskedView.android.js b/node_modules/@react-navigation/elements/lib/module/MaskedView.android.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/MaskedView.android.js.map b/node_modules/@react-navigation/elements/lib/module/MaskedView.android.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/MaskedView.ios.js b/node_modules/@react-navigation/elements/lib/module/MaskedView.ios.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/MaskedView.ios.js.map b/node_modules/@react-navigation/elements/lib/module/MaskedView.ios.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/MaskedView.js b/node_modules/@react-navigation/elements/lib/module/MaskedView.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/MaskedView.js.map b/node_modules/@react-navigation/elements/lib/module/MaskedView.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/MaskedViewNative.js b/node_modules/@react-navigation/elements/lib/module/MaskedViewNative.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/MaskedViewNative.js.map b/node_modules/@react-navigation/elements/lib/module/MaskedViewNative.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/MissingIcon.js b/node_modules/@react-navigation/elements/lib/module/MissingIcon.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/MissingIcon.js.map b/node_modules/@react-navigation/elements/lib/module/MissingIcon.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/PlatformPressable.js b/node_modules/@react-navigation/elements/lib/module/PlatformPressable.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/PlatformPressable.js.map b/node_modules/@react-navigation/elements/lib/module/PlatformPressable.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/ResourceSavingView.js b/node_modules/@react-navigation/elements/lib/module/ResourceSavingView.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/ResourceSavingView.js.map b/node_modules/@react-navigation/elements/lib/module/ResourceSavingView.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/SafeAreaProviderCompat.js b/node_modules/@react-navigation/elements/lib/module/SafeAreaProviderCompat.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/SafeAreaProviderCompat.js.map b/node_modules/@react-navigation/elements/lib/module/SafeAreaProviderCompat.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Screen.js b/node_modules/@react-navigation/elements/lib/module/Screen.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Screen.js.map b/node_modules/@react-navigation/elements/lib/module/Screen.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Text.js b/node_modules/@react-navigation/elements/lib/module/Text.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/Text.js.map b/node_modules/@react-navigation/elements/lib/module/Text.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/back-icon-mask.png b/node_modules/@react-navigation/elements/lib/module/assets/back-icon-mask.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/back-icon.png b/node_modules/@react-navigation/elements/lib/module/assets/back-icon.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/back-icon@1x.android.png b/node_modules/@react-navigation/elements/lib/module/assets/back-icon@1x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/back-icon@1x.ios.png b/node_modules/@react-navigation/elements/lib/module/assets/back-icon@1x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/back-icon@2x.android.png b/node_modules/@react-navigation/elements/lib/module/assets/back-icon@2x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/back-icon@2x.ios.png b/node_modules/@react-navigation/elements/lib/module/assets/back-icon@2x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/back-icon@3x.android.png b/node_modules/@react-navigation/elements/lib/module/assets/back-icon@3x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/back-icon@3x.ios.png b/node_modules/@react-navigation/elements/lib/module/assets/back-icon@3x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/back-icon@4x.android.png b/node_modules/@react-navigation/elements/lib/module/assets/back-icon@4x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/back-icon@4x.ios.png b/node_modules/@react-navigation/elements/lib/module/assets/back-icon@4x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/clear-icon.png b/node_modules/@react-navigation/elements/lib/module/assets/clear-icon.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@1x.png b/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@1x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@2x.png b/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@2x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@3x.png b/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@3x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@4x.png b/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@4x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/close-icon.png b/node_modules/@react-navigation/elements/lib/module/assets/close-icon.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/close-icon@1x.png b/node_modules/@react-navigation/elements/lib/module/assets/close-icon@1x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/close-icon@2x.png b/node_modules/@react-navigation/elements/lib/module/assets/close-icon@2x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/close-icon@3x.png b/node_modules/@react-navigation/elements/lib/module/assets/close-icon@3x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/close-icon@4x.png b/node_modules/@react-navigation/elements/lib/module/assets/close-icon@4x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/search-icon.png b/node_modules/@react-navigation/elements/lib/module/assets/search-icon.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/search-icon@1x.android.png b/node_modules/@react-navigation/elements/lib/module/assets/search-icon@1x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/search-icon@1x.ios.png b/node_modules/@react-navigation/elements/lib/module/assets/search-icon@1x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/search-icon@2x.android.png b/node_modules/@react-navigation/elements/lib/module/assets/search-icon@2x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/search-icon@2x.ios.png b/node_modules/@react-navigation/elements/lib/module/assets/search-icon@2x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/search-icon@3x.android.png b/node_modules/@react-navigation/elements/lib/module/assets/search-icon@3x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/search-icon@3x.ios.png b/node_modules/@react-navigation/elements/lib/module/assets/search-icon@3x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/search-icon@4x.android.png b/node_modules/@react-navigation/elements/lib/module/assets/search-icon@4x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/assets/search-icon@4x.ios.png b/node_modules/@react-navigation/elements/lib/module/assets/search-icon@4x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/getDefaultSidebarWidth.js b/node_modules/@react-navigation/elements/lib/module/getDefaultSidebarWidth.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/getDefaultSidebarWidth.js.map b/node_modules/@react-navigation/elements/lib/module/getDefaultSidebarWidth.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/getNamedContext.js b/node_modules/@react-navigation/elements/lib/module/getNamedContext.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/getNamedContext.js.map b/node_modules/@react-navigation/elements/lib/module/getNamedContext.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/index.js b/node_modules/@react-navigation/elements/lib/module/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/index.js.map b/node_modules/@react-navigation/elements/lib/module/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/package.json b/node_modules/@react-navigation/elements/lib/module/package.json
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/types.js b/node_modules/@react-navigation/elements/lib/module/types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/types.js.map b/node_modules/@react-navigation/elements/lib/module/types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/module/useFrameSize.js b/node_modules/@react-navigation/elements/lib/module/useFrameSize.js
+old mode 100644
+new mode 100755
+index af9105b..a0b6cfe
+--- a/node_modules/@react-navigation/elements/lib/module/useFrameSize.js
++++ b/node_modules/@react-navigation/elements/lib/module/useFrameSize.js
+@@ -11,7 +11,12 @@ import { useSyncExternalStoreWithSelector } from 'use-sync-external-store/with-s
+ // Load with require to avoid error from webpack due to missing export in older versions
+ // eslint-disable-next-line import-x/no-commonjs
+ import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+-const SafeAreaListener = require('react-native-safe-area-context').SafeAreaListener;
++let SafeAreaListener;
++if (typeof navigator !== 'undefined' && navigator.product === 'ReactNative') {
++  SafeAreaListener = require('react-native-safe-area-context').SafeAreaListener;
++} else {
++  SafeAreaListener = undefined;
++}
+ const FrameContext = /*#__PURE__*/React.createContext(undefined);
+ export function useFrameSize(selector, throttle) {
+   const context = React.useContext(FrameContext);
+diff --git a/node_modules/@react-navigation/elements/lib/module/useFrameSize.js.bak b/node_modules/@react-navigation/elements/lib/module/useFrameSize.js.bak
+new file mode 100755
+index 0000000..af9105b
+--- /dev/null
++++ b/node_modules/@react-navigation/elements/lib/module/useFrameSize.js.bak
+@@ -0,0 +1,174 @@
++"use strict";
++
++import * as React from 'react';
++import { Platform, StyleSheet } from 'react-native';
++import {
++// eslint-disable-next-line no-restricted-imports
++useSafeAreaFrame } from 'react-native-safe-area-context';
++import useLatestCallback from 'use-latest-callback';
++import { useSyncExternalStoreWithSelector } from 'use-sync-external-store/with-selector';
++
++// Load with require to avoid error from webpack due to missing export in older versions
++// eslint-disable-next-line import-x/no-commonjs
++import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
++const SafeAreaListener = require('react-native-safe-area-context').SafeAreaListener;
++const FrameContext = /*#__PURE__*/React.createContext(undefined);
++export function useFrameSize(selector, throttle) {
++  const context = React.useContext(FrameContext);
++  if (context == null) {
++    throw new Error('useFrameSize must be used within a FrameSizeProvider');
++  }
++  const value = useSyncExternalStoreWithSelector(throttle ? context.subscribeThrottled : context.subscribe, context.getCurrent, context.getCurrent, selector);
++  return value;
++}
++export function FrameSizeProvider({
++  initialFrame,
++  children
++}) {
++  const context = React.useContext(FrameContext);
++  if (context != null) {
++    // If the context is already present, don't wrap again
++    return children;
++  }
++  return /*#__PURE__*/_jsx(FrameSizeProviderInner, {
++    initialFrame: initialFrame,
++    children: children
++  });
++}
++function FrameSizeProviderInner({
++  initialFrame,
++  children
++}) {
++  const frameRef = React.useRef({
++    width: initialFrame.width,
++    height: initialFrame.height
++  });
++  const listeners = React.useRef(new Set());
++  const getCurrent = useLatestCallback(() => frameRef.current);
++  const subscribe = useLatestCallback(listener => {
++    listeners.current.add(listener);
++    return () => {
++      listeners.current.delete(listener);
++    };
++  });
++  const subscribeThrottled = useLatestCallback(listener => {
++    const delay = 100; // Throttle delay in milliseconds
++
++    let timer;
++    let updated = false;
++    let waiting = false;
++    const throttledListener = () => {
++      clearTimeout(timer);
++      updated = true;
++      if (waiting) {
++        // Schedule a timer to call the listener at the end
++        timer = setTimeout(() => {
++          if (updated) {
++            updated = false;
++            listener();
++          }
++        }, delay);
++      } else {
++        waiting = true;
++        setTimeout(function () {
++          waiting = false;
++        }, delay);
++
++        // Call the listener immediately at start
++        updated = false;
++        listener();
++      }
++    };
++    const unsubscribe = subscribe(throttledListener);
++    return () => {
++      unsubscribe();
++      clearTimeout(timer);
++    };
++  });
++  const context = React.useMemo(() => ({
++    getCurrent,
++    subscribe,
++    subscribeThrottled
++  }), [subscribe, subscribeThrottled, getCurrent]);
++  const onChange = useLatestCallback(frame => {
++    if (frameRef.current.height === frame.height && frameRef.current.width === frame.width) {
++      return;
++    }
++    frameRef.current = {
++      width: frame.width,
++      height: frame.height
++    };
++    listeners.current.forEach(listener => listener());
++  });
++  return /*#__PURE__*/_jsxs(_Fragment, {
++    children: [Platform.OS === 'web' ? /*#__PURE__*/_jsx(FrameSizeListenerWeb, {
++      onChange: onChange
++    }) : typeof SafeAreaListener === 'undefined' ? /*#__PURE__*/_jsx(FrameSizeListenerNativeFallback, {
++      onChange: onChange
++    }) : /*#__PURE__*/_jsx(SafeAreaListener, {
++      onChange: ({
++        frame
++      }) => onChange(frame),
++      style: StyleSheet.absoluteFill
++    }), /*#__PURE__*/_jsx(FrameContext.Provider, {
++      value: context,
++      children: children
++    })]
++  });
++}
++
++// SafeAreaListener is available only on newer versions
++// Fallback to an effect-based shim for older versions
++function FrameSizeListenerNativeFallback({
++  onChange
++}) {
++  const frame = useSafeAreaFrame();
++  React.useLayoutEffect(() => {
++    onChange(frame);
++  }, [frame, onChange]);
++  return null;
++}
++
++// FIXME: On the Web, the safe area frame value doesn't update on resize
++// So we workaround this by measuring the frame on resize
++function FrameSizeListenerWeb({
++  onChange
++}) {
++  const elementRef = React.useRef(null);
++  React.useEffect(() => {
++    if (elementRef.current == null) {
++      return;
++    }
++    const rect = elementRef.current.getBoundingClientRect();
++    onChange({
++      width: rect.width,
++      height: rect.height
++    });
++    const observer = new ResizeObserver(entries => {
++      const entry = entries[0];
++      if (entry) {
++        const {
++          width,
++          height
++        } = entry.contentRect;
++        onChange({
++          width,
++          height
++        });
++      }
++    });
++    observer.observe(elementRef.current);
++    return () => {
++      observer.disconnect();
++    };
++  }, [onChange]);
++  return /*#__PURE__*/_jsx("div", {
++    ref: elementRef,
++    style: {
++      ...StyleSheet.absoluteFillObject,
++      pointerEvents: 'none',
++      visibility: 'hidden'
++    }
++  });
++}
++//# sourceMappingURL=useFrameSize.js.map
+\ No newline at end of file
+diff --git a/node_modules/@react-navigation/elements/lib/module/useFrameSize.js.map b/node_modules/@react-navigation/elements/lib/module/useFrameSize.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/package.json b/node_modules/@react-navigation/elements/lib/typescript/package.json
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Background.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Background.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Background.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Background.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Button.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Button.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Button.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Button.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/Header.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Header/Header.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/Header.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Header/Header.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderBackButton.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderBackButton.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderBackButton.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderBackButton.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderBackContext.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderBackContext.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderBackContext.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderBackContext.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderBackground.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderBackground.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderBackground.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderBackground.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderButton.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderButton.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderButton.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderButton.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderHeightContext.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderHeightContext.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderHeightContext.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderHeightContext.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderIcon.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderIcon.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderIcon.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderIcon.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderSearchBar.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderSearchBar.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderSearchBar.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderSearchBar.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderShownContext.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderShownContext.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderShownContext.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderShownContext.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderTitle.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderTitle.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderTitle.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Header/HeaderTitle.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/getDefaultHeaderHeight.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Header/getDefaultHeaderHeight.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/getDefaultHeaderHeight.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Header/getDefaultHeaderHeight.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/getHeaderTitle.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Header/getHeaderTitle.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/getHeaderTitle.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Header/getHeaderTitle.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/useHeaderHeight.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Header/useHeaderHeight.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Header/useHeaderHeight.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Header/useHeaderHeight.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Label/Label.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Label/Label.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Label/Label.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Label/Label.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Label/getLabel.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Label/getLabel.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Label/getLabel.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Label/getLabel.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/MaskedView.android.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/MaskedView.android.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/MaskedView.android.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/MaskedView.android.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/MaskedView.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/MaskedView.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/MaskedView.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/MaskedView.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/MaskedView.ios.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/MaskedView.ios.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/MaskedView.ios.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/MaskedView.ios.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/MaskedViewNative.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/MaskedViewNative.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/MaskedViewNative.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/MaskedViewNative.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/MissingIcon.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/MissingIcon.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/MissingIcon.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/MissingIcon.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/PlatformPressable.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/PlatformPressable.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/PlatformPressable.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/PlatformPressable.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/ResourceSavingView.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/ResourceSavingView.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/ResourceSavingView.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/ResourceSavingView.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/SafeAreaProviderCompat.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/SafeAreaProviderCompat.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/SafeAreaProviderCompat.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/SafeAreaProviderCompat.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Screen.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Screen.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Screen.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Screen.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Text.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/Text.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/Text.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/Text.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/getDefaultSidebarWidth.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/getDefaultSidebarWidth.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/getDefaultSidebarWidth.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/getDefaultSidebarWidth.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/getNamedContext.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/getNamedContext.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/getNamedContext.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/getNamedContext.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/index.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/index.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/index.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/types.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/types.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/types.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/useFrameSize.d.ts b/node_modules/@react-navigation/elements/lib/typescript/src/useFrameSize.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/lib/typescript/src/useFrameSize.d.ts.map b/node_modules/@react-navigation/elements/lib/typescript/src/useFrameSize.d.ts.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Background.tsx b/node_modules/@react-navigation/elements/src/Background.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Button.tsx b/node_modules/@react-navigation/elements/src/Button.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Header/Header.tsx b/node_modules/@react-navigation/elements/src/Header/Header.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Header/HeaderBackButton.tsx b/node_modules/@react-navigation/elements/src/Header/HeaderBackButton.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Header/HeaderBackContext.tsx b/node_modules/@react-navigation/elements/src/Header/HeaderBackContext.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Header/HeaderBackground.tsx b/node_modules/@react-navigation/elements/src/Header/HeaderBackground.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Header/HeaderButton.tsx b/node_modules/@react-navigation/elements/src/Header/HeaderButton.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Header/HeaderHeightContext.tsx b/node_modules/@react-navigation/elements/src/Header/HeaderHeightContext.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Header/HeaderIcon.tsx b/node_modules/@react-navigation/elements/src/Header/HeaderIcon.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Header/HeaderSearchBar.tsx b/node_modules/@react-navigation/elements/src/Header/HeaderSearchBar.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Header/HeaderShownContext.tsx b/node_modules/@react-navigation/elements/src/Header/HeaderShownContext.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Header/HeaderTitle.tsx b/node_modules/@react-navigation/elements/src/Header/HeaderTitle.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Header/getDefaultHeaderHeight.tsx b/node_modules/@react-navigation/elements/src/Header/getDefaultHeaderHeight.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Header/getHeaderTitle.tsx b/node_modules/@react-navigation/elements/src/Header/getHeaderTitle.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Header/useHeaderHeight.tsx b/node_modules/@react-navigation/elements/src/Header/useHeaderHeight.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Label/Label.tsx b/node_modules/@react-navigation/elements/src/Label/Label.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Label/getLabel.tsx b/node_modules/@react-navigation/elements/src/Label/getLabel.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/MaskedView.android.tsx b/node_modules/@react-navigation/elements/src/MaskedView.android.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/MaskedView.ios.tsx b/node_modules/@react-navigation/elements/src/MaskedView.ios.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/MaskedView.tsx b/node_modules/@react-navigation/elements/src/MaskedView.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/MaskedViewNative.tsx b/node_modules/@react-navigation/elements/src/MaskedViewNative.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/MissingIcon.tsx b/node_modules/@react-navigation/elements/src/MissingIcon.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/PlatformPressable.tsx b/node_modules/@react-navigation/elements/src/PlatformPressable.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/ResourceSavingView.tsx b/node_modules/@react-navigation/elements/src/ResourceSavingView.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/SafeAreaProviderCompat.tsx b/node_modules/@react-navigation/elements/src/SafeAreaProviderCompat.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Screen.tsx b/node_modules/@react-navigation/elements/src/Screen.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/Text.tsx b/node_modules/@react-navigation/elements/src/Text.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png b/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/back-icon.png b/node_modules/@react-navigation/elements/src/assets/back-icon.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/back-icon@1x.android.png b/node_modules/@react-navigation/elements/src/assets/back-icon@1x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/back-icon@1x.ios.png b/node_modules/@react-navigation/elements/src/assets/back-icon@1x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/back-icon@2x.android.png b/node_modules/@react-navigation/elements/src/assets/back-icon@2x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/back-icon@2x.ios.png b/node_modules/@react-navigation/elements/src/assets/back-icon@2x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/back-icon@3x.android.png b/node_modules/@react-navigation/elements/src/assets/back-icon@3x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/back-icon@3x.ios.png b/node_modules/@react-navigation/elements/src/assets/back-icon@3x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/back-icon@4x.android.png b/node_modules/@react-navigation/elements/src/assets/back-icon@4x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/back-icon@4x.ios.png b/node_modules/@react-navigation/elements/src/assets/back-icon@4x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/clear-icon.png b/node_modules/@react-navigation/elements/src/assets/clear-icon.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/clear-icon@1x.png b/node_modules/@react-navigation/elements/src/assets/clear-icon@1x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/clear-icon@2x.png b/node_modules/@react-navigation/elements/src/assets/clear-icon@2x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/clear-icon@3x.png b/node_modules/@react-navigation/elements/src/assets/clear-icon@3x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/clear-icon@4x.png b/node_modules/@react-navigation/elements/src/assets/clear-icon@4x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/close-icon.png b/node_modules/@react-navigation/elements/src/assets/close-icon.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/close-icon@1x.png b/node_modules/@react-navigation/elements/src/assets/close-icon@1x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/close-icon@2x.png b/node_modules/@react-navigation/elements/src/assets/close-icon@2x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/close-icon@3x.png b/node_modules/@react-navigation/elements/src/assets/close-icon@3x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/close-icon@4x.png b/node_modules/@react-navigation/elements/src/assets/close-icon@4x.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/search-icon.png b/node_modules/@react-navigation/elements/src/assets/search-icon.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/search-icon@1x.android.png b/node_modules/@react-navigation/elements/src/assets/search-icon@1x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/search-icon@1x.ios.png b/node_modules/@react-navigation/elements/src/assets/search-icon@1x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/search-icon@2x.android.png b/node_modules/@react-navigation/elements/src/assets/search-icon@2x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/search-icon@2x.ios.png b/node_modules/@react-navigation/elements/src/assets/search-icon@2x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/search-icon@3x.android.png b/node_modules/@react-navigation/elements/src/assets/search-icon@3x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/search-icon@3x.ios.png b/node_modules/@react-navigation/elements/src/assets/search-icon@3x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/search-icon@4x.android.png b/node_modules/@react-navigation/elements/src/assets/search-icon@4x.android.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/assets/search-icon@4x.ios.png b/node_modules/@react-navigation/elements/src/assets/search-icon@4x.ios.png
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/getDefaultSidebarWidth.tsx b/node_modules/@react-navigation/elements/src/getDefaultSidebarWidth.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/getNamedContext.tsx b/node_modules/@react-navigation/elements/src/getNamedContext.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/index.tsx b/node_modules/@react-navigation/elements/src/index.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/types.tsx b/node_modules/@react-navigation/elements/src/types.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@react-navigation/elements/src/useFrameSize.tsx b/node_modules/@react-navigation/elements/src/useFrameSize.tsx
+old mode 100644
+new mode 100755
