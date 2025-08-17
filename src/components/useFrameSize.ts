@@ -1,1 +1,1 @@
-export * from './useFrameSize.web';
+export { default as useFrameSize } from '../hooks/useFrameSize.web';

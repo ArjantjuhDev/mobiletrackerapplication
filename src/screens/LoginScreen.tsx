@@ -1,26 +1,41 @@
-import React, { useState } from 'react';
-import { View, Text, TextInput, Button, StyleSheet, Platform } from 'react-native';
 
-// Mock user database
-export const users: any[] = [
-  { username: 'admin', password: 'admin123', role: 'admin' },
-];
+import React, { useState } from 'react';
+import { View, Text, TextInput, Button, StyleSheet, Platform, ActivityIndicator } from 'react-native';
+
+const API_URL = 'https://mobiletrackerapp-backend.vercel.app/api/login';
 
 const LoginScreen = ({ navigation }: any) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
 
-  const handleLogin = () => {
-    const user = users.find(u => u.username === username && u.password === password);
-    if (!user) {
-      setError('Ongeldige gebruikersnaam of wachtwoord');
-      return;
-    }
-    if (user.role === 'admin') {
-      navigation.navigate('AdminDashboard');
-    } else {
-      navigation.navigate('MemberDashboard');
+  const handleLogin = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const response = await fetch(API_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ username, password }),
+      });
+      const data = await response.json();
+      if (response.ok && data && data.role) {
+        // Navigate based on role
+        if (data.role === 'admin') {
+          navigation.navigate('AdminDashboard');
+        } else {
+          navigation.navigate('MemberDashboard');
+        }
+      } else {
+        setError(data.message || 'Ongeldige gebruikersnaam of wachtwoord');
+      }
+    } catch (err) {
+      setError('Server niet bereikbaar');
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -36,6 +51,7 @@ const LoginScreen = ({ navigation }: any) => {
         placeholderTextColor={isWeb ? '#aaa' : '#888'}
         value={username}
         onChangeText={setUsername}
+        autoCapitalize="none"
       />
       <TextInput
         style={themedStyles.input}
@@ -45,7 +61,11 @@ const LoginScreen = ({ navigation }: any) => {
         value={password}
         onChangeText={setPassword}
       />
-      <Button title="Login" onPress={handleLogin} color={isWeb ? '#007bff' : undefined} />
+      {loading ? (
+        <ActivityIndicator size="large" color="#007bff" />
+      ) : (
+        <Button title="Login" onPress={handleLogin} color={isWeb ? '#007bff' : undefined} />
+      )}
     </View>
   );
 };

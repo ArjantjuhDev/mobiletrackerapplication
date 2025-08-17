@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import { StackNavigationProp } from '@react-navigation/stack';
-import { RouteProp } from '@react-navigation/native';
-import { RootStackParamList } from '../navigation/types';
 import { View, Text, Button, StyleSheet, FlatList, TouchableOpacity, Platform } from 'react-native';
 
 const mockUsers = [
@@ -11,11 +8,8 @@ const mockUsers = [
 ];
 
 type AdminDashboardProps = {
-  navigation: StackNavigationProp<RootStackParamList, 'AdminDashboard'>;
-  route: RouteProp<RootStackParamList, 'AdminDashboard'>;
-};
-
-const AdminDashboard = ({ navigation }: AdminDashboardProps) => {
+// Removed React Navigation imports. Use Expo Router navigation hooks if needed.
+const AdminDashboard = () => {
   const mockUsersWithPhone = [
     { id: '1', username: 'admin', role: 'admin', phoneConnected: true },
     { id: '2', username: 'lid1', role: 'member', phoneConnected: false },
@@ -48,7 +42,8 @@ const AdminDashboard = ({ navigation }: AdminDashboardProps) => {
   return (
     <View style={themedStyles.container}>
       <Text style={themedStyles.title}>Admin Dashboard</Text>
-      <Button title="Lid toevoegen" onPress={() => navigation.navigate('RegisterScreen')} color={isWeb ? '#007bff' : undefined} />
+  {/* Replace navigation logic with Expo Router if needed */}
+  <Button title="Lid toevoegen" onPress={() => alert('Navigatie naar RegisterScreen!')} color={isWeb ? '#007bff' : undefined} />
       <View style={{ marginVertical: 10 }}>
         <Button title="Reset backend" color={isWeb ? '#d9534f' : undefined} onPress={handleBackendReset} />
       </View>
@@ -85,7 +80,7 @@ const AdminDashboard = ({ navigation }: AdminDashboardProps) => {
 const webStyles = StyleSheet.create({
   container: { flex: 1, justifyContent: 'flex-start', alignItems: 'center', backgroundColor: '#181818', padding: 40 },
   title: { fontSize: 32, fontWeight: 'bold', marginBottom: 32, color: '#f5f5f5' },
-  userRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', width: 600, padding: 20, backgroundColor: '#232323', marginBottom: 16, borderRadius: 8, borderWidth: 1, borderColor: '#333', boxShadow: '0 2px 8px #0006' },
+  userRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', width: 600, padding: 20, backgroundColor: '#232323', marginBottom: 16, borderRadius: 8, borderWidth: 1, borderColor: '#333' },
   userText: { color: '#f5f5f5', fontSize: 18 },
   actions: { flexDirection: 'row' },
   actionBtn: { marginLeft: 16, padding: 10, backgroundColor: '#007bff', borderRadius: 4 },

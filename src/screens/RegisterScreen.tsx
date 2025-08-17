@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
 
 // Mock user database (importeer uit LoginScreen)
-import { users } from './LoginScreen';
+
 
 const RegisterScreen = ({ navigation }: any) => {
   const [username, setUsername] = useState('');
@@ -10,17 +10,29 @@ const RegisterScreen = ({ navigation }: any) => {
   const [email, setEmail] = useState('');
   const [error, setError] = useState<string | null>(null);
 
-  const handleRegister = () => {
+  const handleRegister = async () => {
+    setError(null);
     if (!username || !password || !email) {
       setError('Vul alle velden in');
       return;
     }
-    if (users.find(u => u.username === username)) {
-      setError('Gebruikersnaam bestaat al');
-      return;
+    try {
+      const response = await fetch('https://mobiletrackerapp-backend.vercel.app/api/register', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ username, password, email }),
+      });
+      const data = await response.json();
+      if (response.ok) {
+        navigation.navigate('LoginScreen');
+      } else {
+        setError(data.message || 'Registratie mislukt');
+      }
+    } catch (err) {
+      setError('Server niet bereikbaar');
     }
-    users.push({ username, password, email, role: 'member' });
-    navigation.navigate('LoginScreen');
   };
 
   return (

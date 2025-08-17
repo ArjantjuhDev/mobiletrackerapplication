@@ -4,4 +4,10 @@
     { "src": "package.json", "use": "@vercel/static-build", "config": { "distDir": "web-build" } }
   ],
   "outputDirectory": "web-build"
+  ,
+  "build": {
+    "env": {
+      "NPM_FLAGS": "--legacy-peer-deps"
+    }
+  }
 }
